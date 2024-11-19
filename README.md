@@ -33,3 +33,5 @@ Ideally we would create a DAG in Apache Airflow so that this script automaticall
    ```
    python script.py
    ```
+## Notes
+As this project was initially intended only for personal use, I kept it simple and focused mainly on functionality. Due to this, the function `kleinanzeigen_heute()` will only scrap ads from the first page of results. In case you want to use this script for searches that may yield more than a page of results per day, you may want to modify the function accordingly. I will address this issue in future updates.
