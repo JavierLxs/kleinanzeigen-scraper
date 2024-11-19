@@ -1,0 +1,57 @@
+With (city) location:
+https://www.kleinanzeigen.de
+/s-haus-kaufen
+/preis:1:1000000
+/anbieter:privat
+/anzeige:angebote
+/c208 #category (Immobilien)
+l3331 #location (Berlin)
+r50 #radius in km
+
+With (Bundesland) location:
+https://www.kleinanzeigen.de
+/s-haus-kaufen
+/mecklenburg-vorpommern
+/preis:1:1000000
+/anbieter:privat
+/anzeige:angebote
+/c208
+l61 #location (Mecklenburg Vorpommern)
+
+Without location:
+https://www.kleinanzeigen.de
+/s-haus-kaufen
+/preis:1:1000000
+/anbieter:privat
+/anzeige:angebote
+/c208
+
+Filters:
++haus_kaufen.baujahr_i:1500%2C2024
++haus_kaufen.grundstuecksflaeche_d:10%2C1000
++haus_kaufen.haustyp_s:einfamilienhaus (or bungalow%2Ceinfamilienhaus for several Haustyp)
++haus_kaufen.qm_d:10%2C100
++haus_kaufen.verfuegbarm_i:1%2C
++haus_kaufen.verfuegbary_i:2024%2C
++haus_kaufen.zimmer_d:1%2C10
++haus_kaufen.provision_s:nein
++haus_kaufen.online_tour_s:ja
+
+Equipment:
++options:
+  haus_kaufen.furnished_b,
+  haus_kaufen.balcony_b,
+  haus_kaufen.terrace_b,
+  haus_kaufen.built_in_kitchen_b,
+  haus_kaufen.bathtub_b,
+  haus_kaufen.guest_wc_b,
+  haus_kaufen.barrier_free_b,
+  haus_kaufen.floor_heating_b,
+  haus_kaufen.new_building_b,
+  haus_kaufen.celler_loft_b,
+  haus_kaufen.loft_b,
+  haus_kaufen.garage_b,
+  haus_kaufen.garden_b,
+  haus_kaufen.grannyflat_b,
+  haus_kaufen.historical_b,
+  haus_kaufen.rented_b

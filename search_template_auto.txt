@@ -1,0 +1,52 @@
+With location:
+https://www.kleinanzeigen.de
+    /s-autos
+    /anbieter:privat
+    /anzeige:angebote
+    /preis:0:100000
+    /c216 #category (Auto)
+    l3331 #location (Berlin)
+    r200 #radius in km
+
+Without location:
+https://www.kleinanzeigen.de
+    /s-autos
+    /anbieter:privat
+    /anzeige:angebote
+    /preis:0:100000
+    /c216
+
+Filters:
+    +autos.anzahl_tueren_s:4_5
+    +autos.aussenfarbe_s:silber
+    +autos.ez_i:1990%2C2010
+    +autos.fuel_s:benzin
+    +autos.km_i:100000%2C200000
+    +autos.marke_s:volkswagen
+    +autos.material_innenausstattung_s:stoff
+    +autos.model_s:golf
+    +autos.power_i:10%2C300
+    +autos.schaden_s:nein
+    +autos.schadstoffklasse_s:euro4
+    +autos.shift_s:manuell
+    +autos.tuevy_i:2024%2C
+    +autos.typ_s:limousine
+    +autos.umweltplakette_s:4_gruen
+
+Equipment:
+    +options:
+        autos.trailer_coupling_b,
+        autos.park_assistant_b,
+        autos.alluminium_rims_b,
+        autos.xenon_led_light_b,
+        autos.air_conditioning_b,
+        autos.navi_b,
+        autos.radio_tuner_b,
+        autos.bluetooth_b,
+        autos.handsfree_speaker_b,
+        autos.sunroof_b,
+        autos.seat_heating_b,
+        autos.speed_control_b,
+        autos.non_smoking_b,
+        autos.abs_b,
+        autos.full_service_history_b
