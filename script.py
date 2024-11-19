@@ -3,7 +3,7 @@ import re
 import pandas as pd
 from bs4 import BeautifulSoup
 from redmail import EmailSender
-from functions import *
+from function import *
 
 # ------------------------------------------------------------
 # Section 1: Create list of URLs
